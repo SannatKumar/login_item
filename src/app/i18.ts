@@ -22,7 +22,9 @@ i18n
           home: 'Home',
           yogacontent: 'Yoga Content',
           pdfs: 'pdfs',
-          links: 'Links'
+          links: 'Links',
+          generatepdf: 'Generate New Pdf',
+          contact: 'Contact',
 
           // Add your English translations here
         },
@@ -33,7 +35,9 @@ i18n
           home: 'घर',
           yogacontent: 'योग सामग्री',
           pdfs: 'pdfs',
-          links: 'लिनक्सहरु'
+          links: 'लिनक्सहरु',
+          generatepdf: 'Generate New Pdf',
+          contact: 'Contact',
           // Add your Nepali translations here
         },
       },
@@ -43,7 +47,9 @@ i18n
           home: 'Koti',
           yogacontent: 'Jooga Sisältö',
           pdfs: 'pdfs',
-          links: 'linkki'
+          links: 'linkki',
+          generatepdf: 'Generate New Pdf',
+          contact: 'Contact',
           // Add your Finnish translations here
         },
       },
