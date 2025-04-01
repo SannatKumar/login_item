@@ -1,0 +1,5 @@
+{
+    "rajkumar": "Prinssi",
+    "language": "Language",
+    "greeting": "Hello, {{name}}!"
+  }

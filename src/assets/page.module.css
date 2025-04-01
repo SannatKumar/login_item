@@ -21,6 +21,11 @@
   }
 }
 
+.languageButtons{
+  display: flex;
+  flex-direction: column;
+}
+
 .main {
   display: flex;
   flex-direction: column;
