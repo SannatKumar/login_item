@@ -1,0 +1,48 @@
+/* General Body */
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f1e1; /* Light Sand background */
+    color: #333333; /* Dark Gray text for high contrast */
+}
+
+/* Sanskrit Heading */
+.sanskrit-heading {
+    font-family: 'Sanskrit 2003', serif;
+    color: #4b8d9e; /* Deep Blue Accent for headings */
+}
+
+/* Blog Post or Section Background */
+.blog-section {
+    background-color: #d1e8d2; /* Light Sage Green */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Buttons or CTAs */
+.button {
+    background-color: #6b4f2f; /* Earthy Brown */
+    color: #f9f8f4; /* Cream White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #a0c4e8; /* Soft Blue hover effect */
+}
+
+.header{
+
+    background-color: azure;
+    height: 5em;
+    width: 100%;
+}
+
+.headerul{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+}
+
+
