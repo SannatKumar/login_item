@@ -1,27 +1,30 @@
+import { Link } from "react-router-dom";
 import headerstyles from "../assets/theheader.module.css";
+import { useTranslation } from "react-i18next"; // Import the hook for translations
 
 export default function TheHeader()
 {
+    const { t} = useTranslation();
     return (
         <div className={headerstyles.header}>
             <ul className={headerstyles.headerul}>
                 <li>
-                    Home
+                    <Link to="/">{t("home")}</Link>
                 </li>
                 <li>
-                    Yoga Content
+                    <Link to="/yoga-content">{t("yogacontent")}</Link>
                 </li>
                 <li>
-                    Images
+                    <Link to="/images">{t("images")}</Link>
                 </li>
                 <li>
-                    Pdfs
+                    <Link to="/pdfs">{t("pdfs")}</Link>
                 </li>
                 <li>
-                    Contact
+                    <Link to="/contact">{t("contact")}</Link>
                 </li>
                 <li>
-                    Links
+                    <Link to="/links">{t('links')}</Link>
                 </li>
             </ul>
         </div>
