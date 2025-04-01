@@ -45,4 +45,10 @@
     gap: 10em;
 }
 
+.content{
+    height: 25em;
+    width: 25em;
+    background-color: red;
+}
+
 

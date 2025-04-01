@@ -29,4 +29,4 @@ export default function TheHeader()
             </ul>
         </div>
     )
-}
+};
